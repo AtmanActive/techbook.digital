@@ -17,6 +17,14 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-4">
+            <a
+              href="https://techwordoftheday.vercel.app/"
+              className="text-sm text-white hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Word of the Day
+            </a>
             <Link href="/contribute">
               <p className="text-sm text-white hover:underline">Contribute</p>
             </Link>
